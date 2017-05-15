@@ -202,23 +202,30 @@ input[type=submit] {
 }
 
 
-/*width at 980px and below*/
+/*980px and below*/
 @media screen and (max-width: 980px){
+  nav {
+    margin-right: 5px;
+    }
 
 }
 
-/*width at 768px and below*/
+/*768px and below*/
 @media screen and (max-width: 768px)
 {
     .sidebar {
-      clear: both;
       max-width: 100%;
       } 
     .main-section {
       max-width: 100%;
+    }
+
+  nav {
+    margin-right: 5px;
+    }
 }
 
-/*width at 640px and below*/
+/*640px and below*/
 @media screen and (max-width: 640px)
 {
     #logo {
@@ -227,10 +234,7 @@ input[type=submit] {
     nav {
     width: 100%;
     }
-    nav a {
-      padding-left: 50px;
-      margin-left: 50px;
-    }
+   
     .sidebar {
       max-width: 100%;
       } 
